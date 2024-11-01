@@ -9,8 +9,8 @@ const name = "Yusuf";
 
 
 
-foo();
-bar();
+// foo();
+// bar();
 
 
 //function declaration work! 
