@@ -52,6 +52,7 @@ function blockFunction() {
 // ==========================
 
 
+
 var example = "Arman Shaikh";
 function mainFunction() {
     let name = "Yusuf Shaikh";
@@ -82,3 +83,4 @@ function mainFunction() {
     subFunction()
 }
 mainFunction()
+
