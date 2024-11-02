@@ -21,7 +21,7 @@ function function2(){
 
 const y = "ysuf";// global used variable
 
-function4()
+// function4()
 
 function function3(){
     console.log(y)
@@ -30,3 +30,19 @@ function function3(){
 function function4(){
     console.log(y)
 }
+
+
+
+
+
+
+// function block scope
+
+
+function blockFunction(){
+    let name = "Yusuf";
+    console.log(name)
+}// Normal function
+
+blockFunction() // this is function block where can't accece variable glabally only inber function any variable accecs data
+
