@@ -60,6 +60,24 @@ function mainFunction() {
     function subFunction() {
         let foveratePlace = "Mumbai";
         console.log(foveratePlace)
+
+        function subFun2() {
+            console.log("This Sub Function 2")
+            function subFun3() {
+                consoel.log("this is function 3")
+                function subFun4() {
+                    let nameOfSir = "Tarak Sir";
+                    console.log(nameOfSir)
+                    const mainName = () => {
+                        return "This is Kind"
+                    }
+                    mainName()
+                }
+                subFun4()
+            }
+            subFun3();
+        }
+        subFun2()
     }
     subFunction()
 }
