@@ -4,12 +4,12 @@
 // variable scope => where a variable is recognized and accessible (local & global)
 
 // local scope
-function function1(){
+function function1() {
     let x = 1; // local used variable
     console.log(x)
 }
 
-function function2(){
+function function2() {
     let x = 2;
     console.log(x)
 }
@@ -23,11 +23,11 @@ const y = "ysuf";// global used variable
 
 // function4()
 
-function function3(){
+function function3() {
     console.log(y)
 }
 
-function function4(){
+function function4() {
     console.log(y)
 }
 
@@ -39,10 +39,28 @@ function function4(){
 // function block scope
 
 
-function blockFunction(){
+function blockFunction() {
     let name = "Yusuf";
     console.log(name)
 }// Normal function
 
-blockFunction() // this is function block where can't accece variable glabally only inber function any variable accecs data
+// blockFunction() // this is function block where can't accece variable glabally only inber function any variable accecs data
 
+
+
+
+// ==========================
+
+
+var example = "Arman Shaikh";
+function mainFunction() {
+    let name = "Yusuf Shaikh";
+    console.log(name);
+    console.log(example)
+    function subFunction() {
+        let foveratePlace = "Mumbai";
+        console.log(foveratePlace)
+    }
+    subFunction()
+}
+mainFunction()
