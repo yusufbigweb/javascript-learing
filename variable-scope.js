@@ -85,15 +85,23 @@
 // // mainFunction()
 
 
-let name = "yusuf";
+// let name = "yusuf";
 
-if(name.length == 5){
-    console.log("Its Working...")
+// if(name.length == 5){
+//     console.log("Its Working...")
 
-}else{
-  console.log("Good")
-}
-
-
+// }else{
+//   console.log("Good")
+// }
 
 
+
+
+const btn = document.querySelector('button')
+
+btn.addEventListener('click', function(){
+    const secondLayer = document.querySelector(".background-layer-2")
+    
+    secondLayer.style
+
+})
