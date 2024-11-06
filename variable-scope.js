@@ -98,10 +98,17 @@
 
 
 const btn = document.querySelector('button')
+const userData = document.querySelector('.userData')
 
-btn.addEventListener('click', function(){
+btn.addEventListener('click', function () {
     const secondLayer = document.querySelector(".background-layer-2")
-    
-    secondLayer.style
+    const heightDis = secondLayer.style.height = '0';
+    const data = prompt('Enter Your Name')
+    userData.innerHTML = `
+    <h1> ${data} </h1>`;
+
+    if(heightDis == 0){
+        console.log("This is Yusuf")
+    }
 
 })

@@ -25,12 +25,16 @@
 
         .background-layer-1 {
             background-color: antiquewhite;
-            width: 50%;
             height: 80vh;
             border-radius: 20px;
             box-shadow: 5px 5px 16px -10px rgba(0, 0, 0, 0.5);
+            width: 100%;
+            position: relative;
+            z-index: 1;
+
         }
-        .background-layer-2{
+
+        .background-layer-2 {
             background-color: aqua;
             height: 80vh;
             border-radius: 20px;
@@ -38,11 +42,30 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            transition: all ease-in-out 3s;
+            width: 100%;
+         
         }
-        button{
+
+        .gap-side {
+            width: 80%;
+            margin: auto;
+        }
+
+        button {
             padding: 10px 20px;
             border: none;
             font-size: 15px;
+        }
+
+        .center-hading {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
         }
     </style>
 </head>
@@ -51,10 +74,17 @@
 
 
     <div class="container">
-        <div class="background-layer-1">
-            <div class="background-layer-2">
-                <button>Show Next</button>
-            </div>  
+        <div class="gap-side">
+            <div class="background-layer-1">
+                <div class="center-hading">
+                    <span class="userData">
+                        <span class="data"></span>
+                    </span>
+                </div>
+                <div class="background-layer-2">
+                    <button>OPEN</button>
+                </div>
+            </div>
         </div>
 
     </div>
