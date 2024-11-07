@@ -95,8 +95,6 @@
 // }
 
 
-
-
 const btn = document.querySelector('button')
 const userData = document.querySelector('.userData')
 
